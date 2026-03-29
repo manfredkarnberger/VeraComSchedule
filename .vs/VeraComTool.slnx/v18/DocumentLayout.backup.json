@@ -1,0 +1,193 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ws_VisualStudio\\VeraComShedule\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{23D63949-7526-3394-B690-41073B9C2FAF}|VeraComTool.csproj|d:\\ws_visualstudio\\veracomshedule\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23D63949-7526-3394-B690-41073B9C2FAF}|VeraComTool.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23D63949-7526-3394-B690-41073B9C2FAF}|VeraComTool.csproj|d:\\ws_visualstudio\\veracomshedule\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{23D63949-7526-3394-B690-41073B9C2FAF}|VeraComTool.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23D63949-7526-3394-B690-41073B9C2FAF}|VeraComTool.csproj|d:\\ws_visualstudio\\veracomshedule\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23D63949-7526-3394-B690-41073B9C2FAF}|VeraComTool.csproj|solutionrelative:services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23D63949-7526-3394-B690-41073B9C2FAF}|VeraComTool.csproj|d:\\ws_visualstudio\\veracomshedule\\models\\canmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23D63949-7526-3394-B690-41073B9C2FAF}|VeraComTool.csproj|solutionrelative:models\\canmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23D63949-7526-3394-B690-41073B9C2FAF}|VeraComTool.csproj|d:\\ws_visualstudio\\veracomshedule\\services\\pcanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23D63949-7526-3394-B690-41073B9C2FAF}|VeraComTool.csproj|solutionrelative:services\\pcanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23D63949-7526-3394-B690-41073B9C2FAF}|VeraComTool.csproj|d:\\ws_visualstudio\\veracomshedule\\veracomtool.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{23D63949-7526-3394-B690-41073B9C2FAF}|VeraComTool.csproj|solutionrelative:veracomtool.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Manfred\\AppData\\Local\\Temp\\.vsdbgsrc\\91b8eab688dba73dc7b179fffb2179670850a52b1cbbd82a2b0536ca94116ea9\\PropertyPathWorker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\10.0.201\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.WinFX.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23D63949-7526-3394-B690-41073B9C2FAF}|VeraComTool.csproj|d:\\ws_visualstudio\\veracomshedule\\veracomtool.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{23D63949-7526-3394-B690-41073B9C2FAF}|VeraComTool.csproj|solutionrelative:veracomtool.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23D63949-7526-3394-B690-41073B9C2FAF}|VeraComTool.csproj|d:\\ws_visualstudio\\veracomshedule\\drivers\\pcanbasic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23D63949-7526-3394-B690-41073B9C2FAF}|VeraComTool.csproj|solutionrelative:drivers\\pcanbasic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23D63949-7526-3394-B690-41073B9C2FAF}|VeraComTool.csproj|d:\\ws_visualstudio\\veracomshedule\\services\\multimediatimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23D63949-7526-3394-B690-41073B9C2FAF}|VeraComTool.csproj|solutionrelative:services\\multimediatimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VeraComTool",
+              "DocumentMoniker": "D:\\ws_VisualStudio\\VeraComShedule\\VeraComTool.csproj",
+              "RelativeDocumentMoniker": "VeraComTool.csproj",
+              "ToolTip": "D:\\ws_VisualStudio\\VeraComShedule\\VeraComTool.csproj",
+              "RelativeToolTip": "VeraComTool.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-28T14:12:17.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\ws_VisualStudio\\VeraComShedule\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\ws_VisualStudio\\VeraComShedule\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA6wCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T15:56:12.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CanMessage.cs",
+              "DocumentMoniker": "D:\\ws_VisualStudio\\VeraComShedule\\Models\\CanMessage.cs",
+              "RelativeDocumentMoniker": "Models\\CanMessage.cs",
+              "ToolTip": "D:\\ws_VisualStudio\\VeraComShedule\\Models\\CanMessage.cs",
+              "RelativeToolTip": "Models\\CanMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T17:09:44.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Microsoft.WinFX.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.201\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.WinFX.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\10.0.201\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.WinFX.targets",
+              "ViewState": "AgIAAKwCAAAAAAAAAAAIwMICAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-03-27T18:35:33.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "D:\\ws_VisualStudio\\VeraComShedule\\Services\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "Services\\DatabaseService.cs",
+              "ToolTip": "D:\\ws_VisualStudio\\VeraComShedule\\Services\\DatabaseService.cs",
+              "RelativeToolTip": "Services\\DatabaseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T18:16:49.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PCANBasic.cs",
+              "DocumentMoniker": "D:\\ws_VisualStudio\\VeraComShedule\\Drivers\\PCANBasic.cs",
+              "RelativeDocumentMoniker": "Drivers\\PCANBasic.cs",
+              "ToolTip": "D:\\ws_VisualStudio\\VeraComShedule\\Drivers\\PCANBasic.cs",
+              "RelativeToolTip": "Drivers\\PCANBasic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKICAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T17:06:39.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PcanService.cs",
+              "DocumentMoniker": "D:\\ws_VisualStudio\\VeraComShedule\\Services\\PcanService.cs",
+              "RelativeDocumentMoniker": "Services\\PcanService.cs",
+              "ToolTip": "D:\\ws_VisualStudio\\VeraComShedule\\Services\\PcanService.cs",
+              "RelativeToolTip": "Services\\PcanService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T16:58:34.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MultiMediaTimer.cs",
+              "DocumentMoniker": "D:\\ws_VisualStudio\\VeraComShedule\\Services\\MultiMediaTimer.cs",
+              "RelativeDocumentMoniker": "Services\\MultiMediaTimer.cs",
+              "ToolTip": "D:\\ws_VisualStudio\\VeraComShedule\\Services\\MultiMediaTimer.cs",
+              "RelativeToolTip": "Services\\MultiMediaTimer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T16:56:45.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VeraComTool.csproj",
+              "DocumentMoniker": "D:\\ws_VisualStudio\\VeraComShedule\\VeraComTool.csproj",
+              "RelativeDocumentMoniker": "VeraComTool.csproj",
+              "ToolTip": "D:\\ws_VisualStudio\\VeraComShedule\\VeraComTool.csproj",
+              "RelativeToolTip": "VeraComTool.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-27T16:51:43.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\ws_VisualStudio\\VeraComShedule\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\ws_VisualStudio\\VeraComShedule\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-27T15:56:15.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PropertyPathWorker.cs",
+              "DocumentMoniker": "C:\\Users\\Manfred\\AppData\\Local\\Temp\\.vsdbgsrc\\91b8eab688dba73dc7b179fffb2179670850a52b1cbbd82a2b0536ca94116ea9\\PropertyPathWorker.cs",
+              "ToolTip": "C:\\Users\\Manfred\\AppData\\Local\\Temp\\.vsdbgsrc\\91b8eab688dba73dc7b179fffb2179670850a52b1cbbd82a2b0536ca94116ea9\\PropertyPathWorker.cs",
+              "ViewState": "AgIAAJQEAAAAAAAAAAAowJoEAAARAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T21:00:30.347Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

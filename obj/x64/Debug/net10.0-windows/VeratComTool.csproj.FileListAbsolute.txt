@@ -1,0 +1,6 @@
+D:\ws_VisualStudio\VeraCOM\obj\x64\Debug\net10.0-windows\VeratComTool.csproj.AssemblyReference.cache
+D:\ws_VisualStudio\VeraCOM\obj\x64\Debug\net10.0-windows\MainWindow.g.cs
+D:\ws_VisualStudio\VeraCOM\obj\x64\Debug\net10.0-windows\App.g.cs
+D:\ws_VisualStudio\VeraCOM\obj\x64\Debug\net10.0-windows\VeratComTool_Content.g.cs
+D:\ws_VisualStudio\VeraCOM\obj\x64\Debug\net10.0-windows\VeratComTool_MarkupCompile.cache
+D:\ws_VisualStudio\VeraCOM\obj\x64\Debug\net10.0-windows\VeratComTool_MarkupCompile.lref
