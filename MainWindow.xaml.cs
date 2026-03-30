@@ -106,8 +106,37 @@ namespace VeraCom
             });
         }
 
+        private void SelectAdapter()
+        {
+            var adapters = PcanService.GetAvailableAdapters();
+
+            if (adapters.Count == 0)
+            {
+                MessageBox.Show("Kein CAN Adapter gefunden!");
+                return;
+            }
+
+            if (adapters.Count == 1)
+            {
+                _pcanService.SetAdapter(adapters[0]);
+                return;
+            }
+
+            var dialog = new CanAdapterDialog(adapters)
+            {
+                Owner = this
+            };
+
+            if (dialog.ShowDialog() == true)
+            {
+                _pcanService.SetAdapter(dialog.SelectedAdapter);
+            }
+        }
+
         private async void Start_Click(object sender, RoutedEventArgs e)
         {
+            SelectAdapter();
+
             BtnStart.IsEnabled = false;
             BtnStop.IsEnabled = true;
 
@@ -120,6 +149,11 @@ namespace VeraCom
             BtnStop.IsEnabled = false;
 
             await _pcanService.StopAsync();
+        }
+
+        private async void Settings_Click(object sender, RoutedEventArgs e)
+        {
+
         }
 
         private void Beenden_Click(object sender, RoutedEventArgs e)

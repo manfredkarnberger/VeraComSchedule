@@ -3,7 +3,114 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:VeraCom"
              StartupUri="MainWindow.xaml">
+
     <Application.Resources>
-         
+
+        <!-- ========================= -->
+        <!-- 🎨 Farben -->
+        <!-- ========================= -->
+        <Color x:Key="BgMain">#1E1E1E</Color>
+        <Color x:Key="BgPanel">#2D2D30</Color>
+        <Color x:Key="BgAlt">#252526</Color>
+        <Color x:Key="Accent">#007ACC</Color>
+        <Color x:Key="TextColor">#FFFFFF</Color>
+        <Color x:Key="BorderColor">#3F3F46</Color>
+
+        <!-- ========================= -->
+        <!-- Brushes -->
+        <!-- ========================= -->
+        <SolidColorBrush x:Key="MainBrush" Color="{StaticResource BgMain}"/>
+        <SolidColorBrush x:Key="PanelBrush" Color="{StaticResource BgPanel}"/>
+        <SolidColorBrush x:Key="AltBrush" Color="{StaticResource BgAlt}"/>
+        <SolidColorBrush x:Key="AccentBrush" Color="{StaticResource Accent}"/>
+        <SolidColorBrush x:Key="TextBrush" Color="{StaticResource TextColor}"/>
+        <SolidColorBrush x:Key="BorderBrushDark" Color="{StaticResource BorderColor}"/>
+
+        <!-- ========================= -->
+        <!-- 📝 Text -->
+        <!-- ========================= -->
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="{StaticResource TextBrush}"/>
+        </Style>
+
+        <!-- ========================= -->
+        <!-- 🔘 Buttons -->
+        <!-- ========================= -->
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource PanelBrush}"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderBrush" Value="{StaticResource BorderBrushDark}"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Margin" Value="2"/>
+            <Setter Property="Cursor" Value="Hand"/>
+
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="{StaticResource AccentBrush}"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- ========================= -->
+        <!-- 📊 DataGrid -->
+        <!-- ========================= -->
+        <Style TargetType="DataGrid">
+            <Setter Property="Background" Value="{StaticResource MainBrush}"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="RowBackground" Value="{StaticResource PanelBrush}"/>
+            <Setter Property="AlternatingRowBackground" Value="{StaticResource AltBrush}"/>
+            <Setter Property="AlternationCount" Value="2"/>
+            <Setter Property="GridLinesVisibility" Value="Horizontal"/>
+            <Setter Property="BorderBrush" Value="{StaticResource BorderBrushDark}"/>
+        </Style>
+
+        <!-- DataGrid Header -->
+        <Style TargetType="DataGridColumnHeader">
+            <Setter Property="Background" Value="{StaticResource PanelBrush}"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderBrush" Value="{StaticResource BorderBrushDark}"/>
+        </Style>
+
+        <!-- DataGrid Row Hover -->
+        <Style TargetType="DataGridRow">
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#3E3E42"/>
+                </Trigger>
+                <Trigger Property="IsSelected" Value="True">
+                    <Setter Property="Background" Value="{StaticResource AccentBrush}"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- ========================= -->
+        <!-- 📋 Menu -->
+        <!-- ========================= -->
+        <Style TargetType="Menu">
+            <Setter Property="Background" Value="{StaticResource PanelBrush}"/>
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+
+        <Style TargetType="MenuItem">
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+
+        <!-- ========================= -->
+        <!-- 🛠 Toolbar -->
+        <!-- ========================= -->
+        <Style TargetType="ToolBar">
+            <Setter Property="Background" Value="{StaticResource PanelBrush}"/>
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+
+        <!-- ========================= -->
+        <!-- 📌 StatusBar -->
+        <!-- ========================= -->
+        <Style TargetType="StatusBar">
+            <Setter Property="Background" Value="{StaticResource PanelBrush}"/>
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+
     </Application.Resources>
+
 </Application>

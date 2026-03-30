@@ -13,7 +13,11 @@
     <None Remove="DataBaseFile\can_config.db" />
     <None Remove="DataBaseFile\VeratronDevices.db" />
     <None Remove="Images\deflink.png" />
+    <None Remove="Images\fileopen.png" />
     <None Remove="Images\link.png" />
+    <None Remove="Images\play.png" />
+    <None Remove="Images\settings.png" />
+    <None Remove="Images\stop.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -34,7 +38,11 @@
 
   <ItemGroup>
     <Resource Include="Images\deflink.png" />
+    <Resource Include="Images\fileopen.png" />
     <Resource Include="Images\link.png" />
+    <Resource Include="Images\play.png" />
+    <Resource Include="Images\settings.png" />
+    <Resource Include="Images\stop.png" />
   </ItemGroup>
 
   <ItemGroup>

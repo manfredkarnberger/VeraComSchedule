@@ -5,14 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VeraCom"
         mc:Ignorable="d"
-        Title="VeraComTool" Height="800" Width="1000" Background="#3F3F3F">
+        Title="VeraComTool" Height="800" Width="1000" Background="{StaticResource  MainBrush}">
 
-    <Grid>
+     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
         <Menu Grid.Row="0">
@@ -21,23 +22,54 @@
                 <Separator/>
                 <MenuItem Header="Beenden" Click="Beenden_Click"/>
             </MenuItem>
+            <MenuItem Header="Einstellungen">
+                <MenuItem Header="Optionen"/>
+            </MenuItem>
+
+            <MenuItem Header="Hilfe">
+                <MenuItem Header="Info"/>
+            </MenuItem>
         </Menu>
         
         <ToolBar Grid.Row="1">
-            <Button Name="BtnStart" Content="Start" Click="Start_Click"/>
-            <Button Name="BtnStop" Content="Stop" Click="Stop_Click"/>
+            <Button Name="BtnFileOpen" Click="DateiOeffnen_Click">
+                <Image Source="/Images/fileopen.png" Width="48" Height="48" />
+            </Button>
+            
+            <Button Name="BtnStart" Click="Start_Click">
+                <Image Source="/Images/play.png" Width="48" Height="48" />
+            </Button>
+
+            <Button Name="BtnStop" Click="Stop_Click">
+                <Image Source="/Images/stop.png" Width="48" Height="48" />
+            </Button>
+            
+            <Button Name="BtnSettings" Click="Settings_Click">
+                <Image Source="/Images/settings.png" Width="48" Height="48" />
+            </Button>
             <!-- 🔥 DIESE TEXTBOX FEHLT BEI DIR -->
             <TextBox x:Name="TxtDatabasePath"
              Width="400"
              IsReadOnly="True"
              Margin="5,0,0,0"/>
+            <Separator/>
+            <Button Name="BtnQuit" Click="Settings_Click">
+                <Image Source="/Images/settings.png" Width="48" Height="48" />
+            </Button>
+
         </ToolBar>
 
         <!-- Senden -->
         <DataGrid Grid.Row="2"
             ItemsSource="{Binding Messages}"
             AutoGenerateColumns="False"
-            Margin="10">
+            Margin="10"
+            AlternatingRowBackground="#383838"
+            RowBackground="#2E2E2E"
+            AlternationCount="2"
+            GridLinesVisibility="Horizontal"
+            Foreground="White"
+            Background="#2B2B2B">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="CAN ID" Binding="{Binding CanID}"/>
                 <DataGridTextColumn Header="Payload" Binding="{Binding PayloadString}"/>
@@ -50,7 +82,13 @@
         <DataGrid Grid.Row="3"
             ItemsSource="{Binding ReceivedMessages}"
             AutoGenerateColumns="False"
-            Margin="10">
+            Margin="10"
+            AlternatingRowBackground="#383838"
+            RowBackground="#2E2E2E"
+            AlternationCount="2"
+            GridLinesVisibility="Horizontal"
+            Foreground="White"
+            Background="#2B2B2B">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="CAN ID" Binding="{Binding CanID}"/>
                 <DataGridTextColumn Header="Payload" Binding="{Binding PayloadString}"/>
@@ -58,6 +96,24 @@
                 <DataGridTextColumn Header="Timestamp" Binding="{Binding Timestamp}"/>
             </DataGrid.Columns>
         </DataGrid>
+
+        <StatusBar Grid.Row="4">
+            <StatusBarItem>
+                <TextBlock Text="Bereit" x:Name="StatusText"/>
+            </StatusBarItem>
+
+            <Separator/>
+
+            <StatusBarItem>
+                <TextBlock Text="{Binding ElementName=TxtDatabasePath, Path=Text}" />
+            </StatusBarItem>
+
+            <Separator/>
+
+            <StatusBarItem>
+                <TextBlock Text="CAN: Offline" x:Name="StatusCan"/>
+            </StatusBarItem>
+        </StatusBar>
     </Grid>
 
 </Window>

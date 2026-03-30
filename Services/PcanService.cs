@@ -1,11 +1,10 @@
-﻿using VeraCom.Models;
-using Peak.Can.Basic;
+﻿using Peak.Can.Basic;
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
+using VeraCom.Models;
+
+using TPCANHandle = System.UInt16;
 
 namespace PcanSqliteSender.Services
 {
@@ -149,6 +148,41 @@ namespace PcanSqliteSender.Services
             PCANBasic.Uninitialize(_handle);
 
             IsRunning = false;
+        }
+
+        public static List<TPCANHandle> GetAvailableAdapters()
+        {
+            var result = new List<TPCANHandle>();
+
+            // bekannte PCAN USB Adapter
+            var handles = new[]
+            {
+                PCANBasic.PCAN_USBBUS1,
+                PCANBasic.PCAN_USBBUS2,
+                PCANBasic.PCAN_USBBUS3,
+                PCANBasic.PCAN_USBBUS4,
+                PCANBasic.PCAN_USBBUS5,
+                PCANBasic.PCAN_USBBUS6,
+                PCANBasic.PCAN_USBBUS7,
+                PCANBasic.PCAN_USBBUS8
+            };
+
+            foreach (var handle in handles)
+            {
+                var status = PCANBasic.GetStatus(handle);
+
+                if (status == TPCANStatus.PCAN_ERROR_OK)
+                {
+                    result.Add(handle);
+                }
+            }
+
+            return result;
+        }
+
+        public void SetAdapter(ushort handle)
+        {
+            _handle = (ushort)handle;
         }
     }
 }
