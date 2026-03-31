@@ -22,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PcanService.cs",
+              "DocumentMoniker": "D:\\ws_VisualStudio\\VeraComSchedule\\Services\\PcanService.cs",
+              "RelativeDocumentMoniker": "Services\\PcanService.cs",
+              "ToolTip": "D:\\ws_VisualStudio\\VeraComSchedule\\Services\\PcanService.cs",
+              "RelativeToolTip": "Services\\PcanService.cs",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAowKsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T16:58:34.515Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -48,19 +61,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T21:26:33.799Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PcanService.cs",
-              "DocumentMoniker": "D:\\ws_VisualStudio\\VeraComSchedule\\Services\\PcanService.cs",
-              "RelativeDocumentMoniker": "Services\\PcanService.cs",
-              "ToolTip": "D:\\ws_VisualStudio\\VeraComSchedule\\Services\\PcanService.cs",
-              "RelativeToolTip": "Services\\PcanService.cs",
-              "ViewState": "AgIAAJcAAAAAAAAAAAAAAKYAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T16:58:34.515Z",
               "EditorCaption": ""
             }
           ]
