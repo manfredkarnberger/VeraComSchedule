@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VeraComTool")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f76f9ffde23d4b6a4ea8e16490706bb0373d3cf2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d032543e92231c6a420325bb3726c95df95329d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("VeraComTool")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VeraComTool")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
